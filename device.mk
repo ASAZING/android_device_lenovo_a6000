@@ -15,7 +15,7 @@
 #
 
 # Inherit from msm8916-common
-$(call inherit-product, device/lenovo/msm8916-common/msm8916.mk)
+$(call inherit-product, device/wiko/msm8916-common/msm8916.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -23,4 +23,4 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Include package config fragments
 include $(LOCAL_PATH)/product/*.mk
 
-$(call inherit-product, vendor/lenovo/a6000/a6000-vendor.mk)
+$(call inherit-product, vendor/wiko/l5510/l5510-vendor.mk)

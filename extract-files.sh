@@ -17,8 +17,8 @@
 
 set -e
 
-DEVICE=a6000
-VENDOR=lenovo
+DEVICE=l5510
+VENDOR=wiko
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"

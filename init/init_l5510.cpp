@@ -62,13 +62,13 @@ void init_target_properties()
 {
     /* Device Check */
     std::string product = property_get("ro.product.name");
-    if ((strstr(product.c_str(), "a6000") == NULL))
+    if ((strstr(product.c_str(), "l5510") == NULL))
         return;
 
-    property_override("ro.build.product", "Kraft-A6000");
-    property_override("ro.product.device", "Kraft-A6000");
-    property_override("ro.product.model", "Lenovo A6000");
-    property_override("ro.product.name", "Kraft-A6000");
+    property_set("ro.build.product", "l5510");
+    property_set("ro.product.device", "l5510");
+    property_set("ro.product.model", "RIDGE 4G");
+    property_set("ro.product.name", "l5510");
     property_set("dalvik.vm.heapstartsize", "8m");
     property_set("dalvik.vm.heapgrowthlimit", is2GB() ? "192m" : "96m");
     property_set("dalvik.vm.heapsize", is2GB() ? "512m" : "256m");

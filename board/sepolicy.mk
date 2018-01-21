@@ -1,3 +1,3 @@
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/lenovo/a6000/sepolicy
+    device/wiko/l5510/sepolicy

@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := device/lenovo/a6000/carbon_a6000.mk
+PRODUCT_MAKEFILES := device/lenovo/l5510/carbon_l5510.mk
